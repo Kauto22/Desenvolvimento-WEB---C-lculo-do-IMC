@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(90deg, black, gray);
+    overflow: hidden;
+}
+h2 {
+    font-size: 3rem;
+    color: orange;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    height: 580px;
+    width: 400px;
+    background-image: linear-gradient(black,rgb(48, 48, 48), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid orange;
+}
+.titulo {
+    display: grid;
+    gap: 2rem;
+    padding: 10rem;
+    color: white;
+    text-align: center;
+}
+input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 40px;
+    border-radius: 15px;
+}
+button{
+    margin-left: 21%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 3px solid orange;
+}
+label {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#qr {
+    background: white;
+    width: 260px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+}
