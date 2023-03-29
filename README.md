@@ -1,5 +1,6 @@
 # Desenvolvimento-WEB---C-lculo-do-IMC
-Trabalho bimestral do 2º de informática, utilizando HTML, CSS e JavaScript
+Trabalho bimestral do 2º Ano de informática, utilizando HTML, CSS e JavaScript
+By: Kauã Silva & Vanessa Marinho
 
 Este repositório contém o desenvolvimento de um código para calcular o IMC (Índice de Massa Corporal) de uma pessoa, onde foi utilizado a fórmula var IMC = peso/(altura**2), o IMC possui como função
 apontar o peso de uma pessoa e falar se está adequado,abaixo ou acima do peso:
@@ -14,7 +15,7 @@ A div "container" nada mais é que um plano retangular vertical na qual todo o c
 
 Dentro de container se localiza a div "titulo" que possui como conteúdo uma tag "h2" para o título "Cálculo de IMC"
 
-Assim como as divs "peso" e "altura" em que cada uma possuem uma tag "label" e "inputs" que proporcionam ao usuário um espaço para digitação de caracteres, caracteres essas que irão servir como valor para o cálculo ser efetuado.
+Assim como as divs "peso" e "altura" em que cada uma possuem uma tag "label" e "input" que proporcionam ao usuário um espaço para digitação de caracteres, caracteres essas que irão servir como valor para o cálculo ser efetuado.
 
 Por conseguinte temos a div de ID = "qr", que consiste basicamente em um espaço em branco onde se localizará o resultado do cálculo efetuado pelo usuário.
 
@@ -22,14 +23,13 @@ E por fim, a div "calcular", que consiste de uma única tag button, na qual poss
 
 ![image](https://user-images.githubusercontent.com/111540350/228675345-9aeda5ec-29d1-40ee-b716-df2c2bee6939.png)
 
-
-
+|Para informações de estilização de cada DIV deve-se acessar o código CSS|
 
 JavaScript:
 
 O código JavaScript consiste completamente, inteiramente de uma única função, esta denominada de "CalcularIMC"
 Em que é apresentado três constantes, definidas como "peso", "altura", "IMC"
-Em que, "peso" e "altura" pegam os valores de ID dos elementos que são digitados pelo usuário anteriormente em HTML
+Em que, "peso" e "altura" capturam e armazenam para cálculo os valores de ID dos elementos que são digitados pelo usuário anteriormente em HTML
 
 ![image](https://user-images.githubusercontent.com/111540350/228522823-8c1cb5b8-c2a6-4434-9da4-b04255bad861.png)
 
