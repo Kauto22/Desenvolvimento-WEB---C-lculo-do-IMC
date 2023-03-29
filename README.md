@@ -1,14 +1,27 @@
 # Desenvolvimento-WEB---C-lculo-do-IMC
 Trabalho bimestral do 2º de informática, utilizando HTML, CSS e JavaScript
 
-Este repositório contém o desenvolvimento de um código para calcular o IMC de uma pessoa, onde foi utilizado a fórmula var IMC = peso/(altura**2), o IMC serve para
+Este repositório contém o desenvolvimento de um código para calcular o IMC (Índice de Massa Corporal) de uma pessoa, onde foi utilizado a fórmula var IMC = peso/(altura**2), o IMC possui como função
 apontar o peso de uma pessoa e falar se está adequado,abaixo ou acima do peso:
 
-HTML:
+HTML/CSS:
 
 O Código HTML é composto por 5 DIVS, em que, a DIV principal em que se baseia todas as outras é denominada de "container".
-Dentro de container se localiza a div "titulo" que possui como conteúdo uma tag <h2> para o título "Cálculo de IMC"
-Ainda no interior de "container"
+
+A div "container" nada mais é que um plano retangular vertical na qual todo o contéudo do programa se localizará dentro deste mesmo espaço.
+
+![image](https://user-images.githubusercontent.com/111540350/228675045-d0ff732a-5fa8-4117-aea6-02a65e2b0a51.png)
+
+Dentro de container se localiza a div "titulo" que possui como conteúdo uma tag "h2" para o título "Cálculo de IMC"
+
+Assim como as divs "peso" e "altura" em que cada uma possuem uma tag "label" e "inputs" que proporcionam ao usuário um espaço para digitação de caracteres, caracteres essas que irão servir como valor para o cálculo ser efetuado.
+
+Por conseguinte temos a div de ID = "qr", que consiste basicamente em um espaço em branco onde se localizará o resultado do cálculo efetuado pelo usuário.
+
+E por fim, a div "calcular", que consiste de uma única tag button, na qual possui o dever de chamar a função "CalcularIMC" (Explicada mais a frente) e fazer o devido cálculo funcionar e apresenta-lo no espaço designado por "qr"
+
+![image](https://user-images.githubusercontent.com/111540350/228675345-9aeda5ec-29d1-40ee-b716-df2c2bee6939.png)
+
 
 
 
