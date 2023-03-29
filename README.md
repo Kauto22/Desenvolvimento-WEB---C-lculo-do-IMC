@@ -4,6 +4,14 @@ Trabalho bimestral do 2º de informática, utilizando HTML, CSS e JavaScript
 Este repositório contém o desenvolvimento de um código para calcular o IMC de uma pessoa, onde foi utilizado a fórmula var IMC = peso/(altura**2), o IMC serve para
 apontar o peso de uma pessoa e falar se está adequado,abaixo ou acima do peso:
 
+HTML:
+
+O Código HTML é composto por 5 DIVS, em que, a DIV principal em que se baseia todas as outras é denominada de "container".
+Dentro de container se localiza a div "titulo" que possui como conteúdo uma tag <h2> para o título "Cálculo de IMC"
+Ainda no interior de "container"
+
+
+
 JavaScript:
 
 O código JavaScript consiste completamente, inteiramente de uma única função, esta denominada de "CalcularIMC"
@@ -42,9 +50,6 @@ RESULTADO FINAL DA VISUALIZAÇÃO DO CÓDIGO
 ![image](https://user-images.githubusercontent.com/111540350/228523219-32dc9e6c-62d2-4d0c-bced-4250c73243d4.png)
 
 
-HTML:
-
-O Código HTML é composto por 5 DIVS, em que, a DIV principal em que se baseia todas as outras é denominada de "container".
 
 
 
